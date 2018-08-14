@@ -1,6 +1,6 @@
 {
   "name": "react-input-file",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "Simple file input component for React",
   "main": "./lib",
   "scripts": {
@@ -18,13 +18,21 @@
     "input"
   ],
   "author": "Captivation Software",
-  "contributors": ["Data-Meister", "Andi Neck"],
+  "contributors": [
+    "Data-Meister",
+    "Andi Neck"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/intesso/react-input-file/issues"
   },
   "homepage": "https://github.com/intesso/react-input-file",
   "peerDependencies": {
-    "react": "0.x || 15.x"
+    "react": "0.x || 15.x || 16.x",
+    "create-react-class": "*"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.4.2"
   }
 }
