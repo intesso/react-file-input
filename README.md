@@ -20,9 +20,11 @@ Usage is pretty simple: just use react-input-file instead of `<input type="file"
 app.jsx
 ```js
 var React = require('react'),
-  FileInput = require('react-input-file');
+  createReactClass = require('create-react-class');
+  FileInput = require('react-input-file'),
 
-var Form = React.createClass({
+
+var Form = createReactClass({
   handleChange: function(event) {
     console.log('Selected file:', event.target.files[0]);
   },
